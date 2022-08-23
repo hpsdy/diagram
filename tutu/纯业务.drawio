@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T02:15:32.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Q2i-0_xkFXiLvSKplrir" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T02:44:31.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2UVD3Tu0SKzg55FPYyoU" version="20.2.3" type="github">
   <diagram id="JJmWhjyOwM89aCiY69w7" name="第 1 页">
     <mxGraphModel dx="1234" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="9VdhH4_OahOFBLT25fH9-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-13" target="9VdhH4_OahOFBLT25fH9-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9VdhH4_OahOFBLT25fH9-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-13" target="9VdhH4_OahOFBLT25fH9-64">
+        <mxCell id="9VdhH4_OahOFBLT25fH9-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-13" target="9VdhH4_OahOFBLT25fH9-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-66" value="注册服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9VdhH4_OahOFBLT25fH9-65">
@@ -84,7 +84,7 @@
         <mxCell id="9VdhH4_OahOFBLT25fH9-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-15" target="9VdhH4_OahOFBLT25fH9-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9VdhH4_OahOFBLT25fH9-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-15" target="9VdhH4_OahOFBLT25fH9-53">
+        <mxCell id="9VdhH4_OahOFBLT25fH9-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-15" target="9VdhH4_OahOFBLT25fH9-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-15" value="search list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -180,9 +180,9 @@
           <mxGeometry x="1040" y="380" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-49" value="" style="shape=actor;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="335" y="150" width="40" height="60" as="geometry" />
+          <mxGeometry x="335" y="130" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9VdhH4_OahOFBLT25fH9-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-50" target="9VdhH4_OahOFBLT25fH9-15">
+        <mxCell id="9VdhH4_OahOFBLT25fH9-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-50" target="9VdhH4_OahOFBLT25fH9-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-50" value="request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -197,11 +197,8 @@
         <mxCell id="9VdhH4_OahOFBLT25fH9-58" value="function" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="263" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9VdhH4_OahOFBLT25fH9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-64" target="9VdhH4_OahOFBLT25fH9-50">
+        <mxCell id="9VdhH4_OahOFBLT25fH9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-78" target="9VdhH4_OahOFBLT25fH9-50">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9VdhH4_OahOFBLT25fH9-64" value="&lt;div&gt;Network framework&lt;/div&gt;&lt;div&gt;http/grpc/brpc/spex...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="295" y="254.5" width="120" height="53" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-68" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;direction=north;" vertex="1" parent="1">
           <mxGeometry x="66" y="770" width="364" height="10" as="geometry" />
@@ -227,6 +224,23 @@
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-76" value="优势：&lt;br&gt;&lt;ol&gt;&lt;li&gt;简单功能快速接入、上线&lt;/li&gt;&lt;li&gt;框架性能损耗少&lt;/li&gt;&lt;li&gt;适合功能单一， 迭代低频的服务。 如召回、向量检索、特征服务、存储等。&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;劣势：&lt;/div&gt;&lt;ol&gt;&lt;li&gt;全局数据依赖不清晰， 功能和数据不内聚。 函数找数据， 数据找函数困难。&lt;/li&gt;&lt;li&gt;调用链路比较深。 没有全局视角， 代码阅读困难&lt;/li&gt;&lt;li&gt;随着业务迭代， 继承、 判断分支增多， 服务越发冗余， 模块之间耦合会越来越重&lt;/li&gt;&lt;li&gt;容易出现大文件&lt;/li&gt;&lt;li&gt;问题定位困难&lt;/li&gt;&lt;li&gt;新的功能、 优化推全周期长&lt;/li&gt;&lt;li&gt;以上会恶性循环， 导致业务迭代周期越来越长， 成本越来越高&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="472" y="815" width="508" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="9VdhH4_OahOFBLT25fH9-78" value="&lt;div&gt;Network framework&lt;/div&gt;&lt;div&gt;http/grpc/brpc/spex...&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" vertex="1" parent="1">
+          <mxGeometry x="286.5" y="231" width="137" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9VdhH4_OahOFBLT25fH9-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;strokeWidth=1;" edge="1" parent="1" source="9VdhH4_OahOFBLT25fH9-78" target="9VdhH4_OahOFBLT25fH9-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="211" />
+              <mxPoint x="267" y="211" />
+              <mxPoint x="267" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VdhH4_OahOFBLT25fH9-80" value="loop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9VdhH4_OahOFBLT25fH9-79">
+          <mxGeometry x="-0.2203" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
