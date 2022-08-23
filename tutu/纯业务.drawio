@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T06:43:08.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tPqIPEeadK9xZYtQLQ40" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T06:50:29.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1a6B0NXVHmr7uqd0tIp3" version="20.2.3" type="github">
   <diagram id="JJmWhjyOwM89aCiY69w7" name="第 1 页">
     <mxGraphModel dx="1234" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9VdhH4_OahOFBLT25fH9-81" value="适合：&lt;br&gt;&lt;ol&gt;&lt;li&gt;适合功能单一， 迭代低频的服务。 如召回、向量检索、特征服务、参数服务器、存储等&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9VdhH4_OahOFBLT25fH9-81" value="适合：&lt;br&gt;&lt;ol&gt;&lt;li&gt;适合功能单一， 迭代低频的服务。 如召回、向量检索、特征服务、参数服务、存储等&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1010" y="815" width="240" height="235" as="geometry" />
         </mxCell>
       </root>
