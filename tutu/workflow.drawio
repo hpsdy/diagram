@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T12:11:59.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tbzxYIDT0udxBWrHVXqk" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T12:13:20.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WIGYBC9JDm7fu08-AP6Q" version="20.3.0" type="github">
   <diagram id="qBbRMDuZCxNC1_aumbTr" name="第 1 页">
     <mxGraphModel dx="1234" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
         <mxCell id="05DDijJdnSvila2RPbBB-168" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;direction=north;" parent="1" vertex="1">
           <mxGeometry x="1204" y="880" width="364" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="05DDijJdnSvila2RPbBB-169" value="适合:&lt;br&gt;&lt;ol&gt;&lt;li&gt;聚合类在线服务。 特别是搜广推场景， 需要依赖大量其他服务， 为用户挑选商品。 涉及召回、 预估、 排序、 重排等流程， 且各个流程升级、迭代频繁。&lt;/li&gt;&lt;li&gt;需要灵活编排的服务。预估、训练场景， 对特征处理方式的编排&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="05DDijJdnSvila2RPbBB-169" value="适合:&lt;br&gt;&lt;ol&gt;&lt;li&gt;聚合类在线服务。 特别是搜广推场景， 需要依赖大量其他服务， 为用户挑选商品。 涉及召回、 预估、 排序、 重排等流程， 且各个流程升级、迭代频繁&lt;/li&gt;&lt;li&gt;需要灵活编排的服务。预估、训练场景， 对特征、训练处理流程的编排&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1180" y="990" width="430" height="230" as="geometry" />
         </mxCell>
       </root>
