@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T12:10:33.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fOEiQJf1Ze5adszhd79H" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T09:56:21.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="P4z3kxXXAnhPmiomzoQ5" version="20.3.0" type="github">
   <diagram id="JJmWhjyOwM89aCiY69w7" name="第 1 页">
-    <mxGraphModel dx="1234" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,10 +221,10 @@
           <mxGeometry x="745" y="785" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-75" value="一般流程：&lt;br&gt;&lt;ol&gt;&lt;li&gt;启动服务&lt;/li&gt;&lt;li&gt;初始化配置文件， 全局数据资源、网络资源、服务资源&lt;/li&gt;&lt;li&gt;注册请求处理handler到对应的网络框架中&lt;/li&gt;&lt;li&gt;开始接受网络请求（accept/loop）&lt;/li&gt;&lt;li&gt;根据协议meta/uri数据找到业务handler&lt;/li&gt;&lt;li&gt;执行对应的handler流程&lt;/li&gt;&lt;li&gt;返回数据&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="61" y="815" width="374" height="235" as="geometry" />
+          <mxGeometry x="1180" y="207" width="380" height="163" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-76" value="优势：&lt;br&gt;&lt;ol&gt;&lt;li&gt;简单功能快速接入、上线&lt;/li&gt;&lt;li&gt;无框架层性能损耗&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;劣势：&lt;/div&gt;&lt;ol&gt;&lt;li&gt;全局数据依赖不清晰， 功能和数据不内聚。 函数找数据， 数据找函数困难。&lt;/li&gt;&lt;li&gt;调用链路比较深。 没有全局视角， 代码阅读困难&lt;/li&gt;&lt;li&gt;随着业务迭代， 继承、 判断分支增多， 服务越发冗余， 模块之间耦合会越来越重&lt;/li&gt;&lt;li&gt;容易出现大文件&lt;/li&gt;&lt;li&gt;问题定位困难&lt;/li&gt;&lt;li&gt;新的功能、 优化推全周期长&lt;/li&gt;&lt;li&gt;以上会恶性循环， 导致业务迭代周期越来越长， 成本越来越高&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="472" y="815" width="508" height="235" as="geometry" />
+          <mxGeometry x="1180" y="396.5" width="380" height="233.5" as="geometry" />
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-78" value="&lt;div&gt;Network framework&lt;/div&gt;&lt;div&gt;http/grpc/brpc/spex...&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
           <mxGeometry x="286.5" y="231" width="137" height="100" as="geometry" />
@@ -244,7 +244,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9VdhH4_OahOFBLT25fH9-81" value="适合：&lt;br&gt;&lt;ol&gt;&lt;li&gt;适合功能单一， 迭代低频的服务。 如召回、向量检索、特征服务、参数服务、存储等&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="815" width="240" height="235" as="geometry" />
+          <mxGeometry x="1180" y="657.5" width="380" height="132.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
