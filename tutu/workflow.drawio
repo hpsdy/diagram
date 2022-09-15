@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T12:13:20.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WIGYBC9JDm7fu08-AP6Q" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T10:02:33.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mvWm4EV4vxYWTBpfKlsc" version="20.3.0" type="github">
   <diagram id="qBbRMDuZCxNC1_aumbTr" name="第 1 页">
-    <mxGraphModel dx="1234" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,10 +22,10 @@
           <mxGeometry x="1301" y="904" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="05DDijJdnSvila2RPbBB-67" value="一般流程：&lt;br&gt;&lt;ol&gt;&lt;li&gt;按照规范开发算子&lt;/li&gt;&lt;li&gt;在配置文件中， 使用算子编排自己的服务&lt;/li&gt;&lt;li&gt;服务启动， 注册算子&lt;/li&gt;&lt;li&gt;解析检查配置文件，并初始化算子配置&lt;/li&gt;&lt;li&gt;注册配置表达的服务流程（handler）到网络&lt;/li&gt;&lt;li&gt;开始接受网络请求（accept/loop）&lt;/li&gt;&lt;li&gt;根据协议meta/uri数据找到handler&lt;/li&gt;&lt;li&gt;框架调度业务流程的执行&lt;/li&gt;&lt;li&gt;返回数据&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="200" y="990" width="374" height="235" as="geometry" />
+          <mxGeometry x="1640" y="153" width="360" height="190" as="geometry" />
         </mxCell>
         <mxCell id="05DDijJdnSvila2RPbBB-68" value="优势：&lt;br&gt;&lt;ol&gt;&lt;li&gt;完善的框架， 会简化业务工作量， 聚焦于业务开发&lt;/li&gt;&lt;li&gt;配置与算子的关联更内聚， 阅读更友好&lt;/li&gt;&lt;li&gt;算子的开发方式， 每个算子天然内聚， 不同算子功能独立&lt;/li&gt;&lt;li&gt;编排服务， 避免重复造轮子， 且对业务流程有全局视角&amp;nbsp;&lt;/li&gt;&lt;li&gt;框架调度算子， 支持性能与异常检查&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;劣势：&lt;/div&gt;&lt;ol&gt;&lt;li&gt;有一定的学习、理解成本。 需要按照规范开发算子&lt;/li&gt;&lt;li&gt;服务编排不够灵活， 只能支持横、竖编排&lt;/li&gt;&lt;li&gt;算子输出的传递， 需要根据算子名称解析、使用&lt;/li&gt;&lt;li&gt;框架调度有一定性能损耗&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="719.5" y="990" width="430" height="230" as="geometry" />
+          <mxGeometry x="1640" y="365" width="360" height="230" as="geometry" />
         </mxCell>
         <mxCell id="05DDijJdnSvila2RPbBB-69" value="operator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="127.5" y="302" width="215" height="170" as="geometry">
@@ -317,7 +317,7 @@
           <mxGeometry x="1204" y="880" width="364" height="10" as="geometry" />
         </mxCell>
         <mxCell id="05DDijJdnSvila2RPbBB-169" value="适合:&lt;br&gt;&lt;ol&gt;&lt;li&gt;聚合类在线服务。 特别是搜广推场景， 需要依赖大量其他服务， 为用户挑选商品。 涉及召回、 预估、 排序、 重排等流程， 且各个流程升级、迭代频繁&lt;/li&gt;&lt;li&gt;需要灵活编排的服务。预估、训练场景， 对特征、训练处理流程的编排&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="990" width="430" height="230" as="geometry" />
+          <mxGeometry x="1640" y="639" width="360" height="164" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
