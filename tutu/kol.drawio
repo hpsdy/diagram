@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T03:43:11.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AS--GKwNAf17mVvWca89" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T03:44:57.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UyRwIR0ym-LgfRwAq9bR" version="20.3.6" type="github">
   <diagram id="mWiwcMwAUVsdAyo2K8y_" name="第 1 页">
     <mxGraphModel dx="1474" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -628,7 +628,7 @@
             <mxRectangle width="194" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5SF16u_x7g2ZWTaFitWA-183" value="score" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="5SF16u_x7g2ZWTaFitWA-180">
+        <mxCell id="5SF16u_x7g2ZWTaFitWA-183" value="recall/pick" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="5SF16u_x7g2ZWTaFitWA-180">
           <mxGeometry x="342" width="263" height="60" as="geometry">
             <mxRectangle width="263" height="60" as="alternateBounds" />
           </mxGeometry>
